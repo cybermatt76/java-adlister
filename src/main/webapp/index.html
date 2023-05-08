@@ -6,10 +6,40 @@
 </head>
 <body>
   <h1>Welcome to Adlister</h1>
+  <br>
     <form action="welcome" method="post">
         <label for="username">Username:</label>
         <input type="text" name="username" id="username">
         <input type="submit" value="enter">
     </form>
+  <br>
+  <br>
+  <br>
+  <p>Choose your favorite Web language:</p>
+
+  <form action="/favorite-language" method="post">
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">HTML</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">CSS</label><br>
+      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+      <label for="javascript">JavaScript</label>
+      <input type="submit" value="Submit">
+  </form>
+  <br>
+  <br>
+  <form action="/name-age" method="GET">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="age">Age:</label>
+      <input type="text" id="age" name="age"><br><br>
+      <input type="submit" value="Submit">
+  </form>
+<br>
+  <button onclick="window.location.href='http://localhost:8080/count'">Count</button>
+<br>
+  <br>
+  <button onclick="window.location.href='http://localhost:8080/count?reset=true'">Count Reset</button>
+  <br>
 </body>
 </html>
