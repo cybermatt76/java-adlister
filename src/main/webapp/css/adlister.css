@@ -1,0 +1,12 @@
+.page-wrapper {
+
+}
+
+body {
+    background-image: url("/css/images/cloud_city.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}

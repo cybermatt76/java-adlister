@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Profile Page</title>
-</head>
+<jsp:include page="partials/head.jsp" />
+<%@ include file="partials/navbar.jsp" %>
+
 <body>
 <h1>Welcome, admin!</h1>
 <p>This is your profile page.</p>

@@ -2,8 +2,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <jsp:include page="partials/head.jsp" />
+<%@ include file="partials/navbar.jsp" %>
 
 <body>
+<div class="page-wrapper">
     <h1>Implicit Objects in action:</h1>
     <p>Path: <%= request.getRequestURL()%></p>
     <p>Query String: <%= request.getRequestURL()%></p>
@@ -17,5 +19,6 @@
     <c:if test="false">
         <h1>single letter variable names are good</h1>
     </c:if>
+</div>
 </body>
 </html>

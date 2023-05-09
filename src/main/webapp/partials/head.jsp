@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <head>
     <title>Adlister</title>
-    <link rel="stylesheet" type="text/css" href="/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="/css/adlister.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/adlister.css">
 </head>
 

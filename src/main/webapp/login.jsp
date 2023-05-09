@@ -8,9 +8,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Login Form</title>
-</head>
+<jsp:include page="partials/head.jsp" />
+<%@ include file="partials/navbar.jsp" %>
 <body>
 <h1>Login Form</h1>
 <form method="post" action="/login">
