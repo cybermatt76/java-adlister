@@ -5,6 +5,7 @@
             <a class="navbar-brand" href="/ads">Adlister</a>
         </div>
         <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://localhost:8080"><button style="margin-right: 10px;">Home</button></a></li>
             <li><a href="/login">Login</a></li>
         </ul>
     </div><!-- /.navbar-collapse -->
